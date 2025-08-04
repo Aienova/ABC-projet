@@ -1,0 +1,19 @@
+.centralizer{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.fullWidth{
+
+    width: 100%;
+}
+
+
+.blackbg{
+    background-color: black;
+    color: white;
+}

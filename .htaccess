@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Route pour l'API films avec paramètre mode : data/films/all, data/films/top, data/films/recent
+RewriteRule ^data/films/(all|top|recent)/?$ data/films.php?mode=$1 [NC,L]
+
+# Route pour l'API film avec paramètre ID : data/film/1, data/film/2, etc.
+RewriteRule ^data/film/([0-9]+)/?$ data/film.php?id=$1 [NC,L]
+
+# Route pour film avec paramètre ID : film/1, film/2, etc.
+RewriteRule ^film/([0-9]+)/?$ film.php?id=$1 [NC,L]
+
+# Règles générales pour ajouter .php automatiquement à tous les fichiers
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
