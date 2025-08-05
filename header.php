@@ -1,4 +1,7 @@
 
+
+<!-- AIE TV Header File -->
+
 <?php $root = "http://localhost/abc-project/aie-tv"; ?>
 
 <!DOCTYPE html>
@@ -29,11 +32,15 @@
 
         <nav class="fullWidth blackbg">
             <ul>
-                <li><a href="#news">Sortie à la une</a></li>
+                <li><a href="#news">Nouveautés</a></li>
                 <li><a href="#topten">Top 10</a></li>
                 <li><a href="#films">Tous nos films</a></li>
 
             </ul>
         </nav>
     </header>
-    
+
+            <?php if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                include 'popup.php';
+            }  ?>
+     
