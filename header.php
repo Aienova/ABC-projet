@@ -40,5 +40,7 @@
         </nav>
     </header>
 
-            <?php if(!isset($_POST)){ include "popup.php";  }   ?>
+            <?php if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                include 'popup.php';
+            }  ?>
      
