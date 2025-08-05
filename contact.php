@@ -3,12 +3,12 @@ $pageTitle = "AIE TV - Contact";
 
 include "header.php" ?>
 
-
+    <main>
         <section id="services">
             <h2>Contact</h2>
             <!--FORM-->
 
-            <div class="form-container">
+            <div id="form-contact" class="form-container">
                <form method="POST" action="">
                     <h3>Nous contacter</h3>
 
@@ -25,7 +25,6 @@ include "header.php" ?>
                 </form>
             </div> 
         </section>
+    </main>
 
-
-</html>
 <?php include "footer.php" ?>

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/about-us.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/fav.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/banner.css">
+        <link rel="stylesheet" href="<?php echo $root; ?>/styles/form.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
