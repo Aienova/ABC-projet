@@ -5,7 +5,19 @@
 
     <main>
         <section id="services">
-            <h2>Nos Abonnements</h2>
+                <h2>Nos abonnements</h2>
+
+                <div id="description">
+
+            
+
+                <p style="max-width: 700px; line-height: 25px; font-weight: bold; font-size: 18px">Accès illimité à tous les films & séries du moment - 35&#x20AC/mois</p>
+            
+                
+                <p>Vous en avez assez de jongler entre Netflix, Dinsey+, Amazon Prime ou Paramounth TV ? Avec le Pack Premium AIE TV, accédez en illimité à tous les contenus des plus grandes plateformes, réunis en une seule application.</p>
+                </div>
+
+            <h2>Inscription au pack premium</h2>
 
             <div id="form-services" class="form-container">
                 <form method="POST" action="">
