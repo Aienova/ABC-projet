@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/footer.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/shortcodes.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>/styles/dark-mode.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/about-us.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/fav.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/banner.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
-<body>
+<body class="transition-mode">
 
     <header class="centralizer">
         
@@ -31,6 +32,7 @@
                 <li><a href="<?php echo $root; ?>/services">Abonnements</a></li>
                 <li><a href="<?php echo $root; ?>/a-propos">A propos</a></li>
                 <li><a href="<?php echo $root; ?>/contact">Contact</a></li>
+                <li><button class="dark-mode-btn">🌙</button></li>
             </ul>
         </nav>
     <?php

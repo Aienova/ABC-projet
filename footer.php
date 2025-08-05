@@ -1,5 +1,6 @@
 
-    <footer>
+    <footer class="centralizer">
+    
 
 
     <ul>
@@ -28,6 +29,9 @@
 
     <p class="centralizer">Copyright © 2025 ABC Dev Centre de Réadaptation de Mulhouse</p>
     <script src="https://kit.fontawesome.com/14d1623dc1.js" crossorigin="anonymous"></script>
+        <script src="script/darkMode.js"></script>
+
+
     </footer>
 
 

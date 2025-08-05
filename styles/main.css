@@ -4,19 +4,17 @@ body{
     font-family: Forte, sans-serif;
     margin: 0;
     padding: 0;
+    /* transition: all 0.5s ease; */
     background-color: #f1ebeb;
 }
 
-
-
 header {
     background-color: red;
-
+    color: white!important;
 }
 
 a{
-
-    color: white;
+    color: var(--txt-primary);
     text-decoration: none;
 }
 
@@ -25,6 +23,10 @@ header ul li {
     margin-right: 20px;
 }
 
+header a,footer a,#banner P{
+    color: white!important;
+    font-weight: bold;
+}
 
 main {
     padding: 20px;
@@ -56,7 +58,7 @@ main {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.5);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -70,13 +72,13 @@ main {
 .card h3 {
     margin: 15px;
     font-size: 1.2em;
-    color: #333;
+    color: var(--txt-primary);
     font-weight: bold;
 }
 
 .card p {
     margin: 0 15px 15px;
-    color: #666;
+    color: var(--txt-primary);
     line-height: 1.4;
     font-size: 0.9em;
 }
@@ -86,7 +88,7 @@ main {
     margin: 0 15px 15px;
     padding: 8px 16px;
     background-color: #007bff;
-    color: white;
+    color: var(--txt-primary);
     text-decoration: none;
     border-radius: 4px;
     font-size: 0.9em;
@@ -107,7 +109,7 @@ section h2 {
     text-align: center;
     margin-bottom: 30px;
     font-size: 2em;
-    color: #333;
+    color: var(--txt-primary);
 }
 
 
@@ -152,7 +154,7 @@ section{
     text-align: center;
     margin-bottom: 30px;
     font-size: 2.5em;
-    color: #333;
+    color: var(--txt-primary);
 }
 
 .details-container {
@@ -184,7 +186,7 @@ section{
 .details-text p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #555;
+    color: var(--txt-primary);
     margin: 0;
 }
 

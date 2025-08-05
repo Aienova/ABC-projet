@@ -1,72 +1,60 @@
-<?php 
-$pageTitle = "AIE TV - Abonnements";
-
-include "header.php" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .form-container {
-            background-color: #FFD700;
-            color: black;
-            max-width: 700px;
-            margin: auto;
-            padding: 30px;
-        }
-        
-        form {
-            display: flex;
-            flex-direction: column;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="abonnements" />
+  <title>Nos abonnements</title>
 
-        .form-container input {
-            width: 50%;
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            border: none;
-        }
+<style>
 
-        .form-container button {
-            background-color: black;
-            width: 25%;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
+    @keyframes slideInLeft{
+        from{
+            transform : translateX(-300px);
         }
-    </style>
+        to{
+            transform: translateX(0;)
+        }
+    }
+
+#description {
+     max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+    text-align: left;
+    line-height: 25px;
+    animation: slideInLeft 1s ease-in both;
+}
+
+</style>
+
+
+
+<?php include "header.php" ?>
 </head>
-<body>
+
+   <body>
     <main>
+
+
+    <div id="description" align="center">
+    <h1 align="center">Nos abonnements</h1>
+    <br>
+
+    <p style="max-width: 700px; line-height: 25px; font-weight: bold; font-size: 18px">Accès illimité à tous les films & séries du moment - 35&#x20AC/mois</p>
+  
+    
+    <p>Vous en avez assez de jongler entre Netflix, Dinsey+, Amazon Prime ou Paramounth TV ? Avec le Pack Premium AIE TV, accédez en illimité à tous les contenus des plus grandes plateformes, réunis en une seule application.</p>
+    </div>
+
+
         <section id="services">
-            <h2>Nos Abonnements</h2>
-
-            <div class="form-container">
-                <form method="POST" action="">
-                    <h3>Inscription au pack premium</h3>
-
-                    <label for="fname">Nom :</label>
-                    <input type="text" id="fname" name="fname" required>
-
-                    <label for="lname">Prénom :</label>
-                    <input type="text" id="lname" name="lname" required>
-
-                    <label for="birthday">Date de naissannce :</label>
-                    <input type="date" id="birthday" name="birthday" required>
-
-                    <label for="email">Adresse Email :</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <button type="submit">S'inscrire</button>
-                </form>
-            </div> 
+            <h2>Inscription au pack premium</h2>
 
         </section>
     </main>
-</body>
-</html>
+
 
 <?php include "footer.php" ?>
+</body>
+</html>

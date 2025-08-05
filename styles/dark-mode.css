@@ -1,0 +1,44 @@
+:root {
+  /* Mode clair (par défaut) */
+  --bgd-primary: #ffffff;
+  --bgd-secondary: #f0f0f0;
+
+  --txt-primary: #111111;
+  --txt-secondary: #444444;
+
+  --accent: rgb(100, 150, 255);
+  --accent-hover: rgb(150, 200, 255);
+}
+
+[data-theme="dark"] {
+  /* 🌙 Mode sombre */
+  --bgd-primary: rgb(23, 23, 23);
+  --bgd-secondary: rgb(36, 36, 36);
+
+  --txt-primary: rgb(230, 230, 230);
+  --txt-secondary: rgb(180, 180, 180);
+
+  --accent: rgb(100, 150, 255);
+  --accent-hover: rgb(150, 200, 255);
+}
+
+/* Styles globaux */
+body {
+  background-color: var(--bgd-primary);
+  color: var(--txt-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, p {
+  color: var(--txt-primary);
+}
+
+.card {
+  background-color: var(--bgd-secondary);
+  color: var(--txt-primary);
+}
+
+/* Optionnel : transition douce à l’activation */
+body.transition-mode {
+  transition: all 0.5s ease;
+}
