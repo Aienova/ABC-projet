@@ -10,6 +10,7 @@ body{
 
 header {
     background-color: red;
+    color: white!important;
 }
 
 a{
@@ -22,6 +23,10 @@ header ul li {
     margin-right: 20px;
 }
 
+header a,footer a,#banner P{
+    color: white!important;
+    font-weight: bold;
+}
 
 main {
     padding: 20px;
