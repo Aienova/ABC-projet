@@ -1,78 +1,53 @@
-<?php 
-$pageTitle = "AIE TV - Contact";
-
-include "header.php" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .form-container {
-            background-color: red;
-            color: black;
-            max-width: 700px;
-            margin: auto;
-            padding: 30px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="contact" />
+  <title>Contact</title>
 
-        form {
-            display: flex;
-            flex-direction: column;
-        }
+<style>
 
-        .form-container input {
-            width: 50%;
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            border: none;
+    @keyframes slideInLeft{
+        from{
+            transform : translateX(-300px);
         }
+        to{
+            transform: translateX(0;)
+        }
+    }
 
-        .form-container textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            border: none;
-            resize: none;
-        }
+#description {
+     max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+    text-align: left;
+    line-height: 25px;
+    animation: slideInLeft 1s ease-in both;
+}
 
-        .form-container button {
-            background-color: black;
-            width: 25%;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+</style>
+
+
+
+<?php include "header.php" ?>
 </head>
 <body>
     <main>
+<div id="description" align="center">
+    <h1 align="center">Contact</h1>
+    <br>
 
+    <p style="max-width: 500px; margin-left: auto; margin-right: auto; text-align: left; line-height: 25px; font-weight: bold; font-size: 18px">Besoin d'aide ou avez-vous des questions ? Vous pouvez nous contacter via notre formulaire ci-dessous</p>
+  
+</div>
         <section id="services">
-            <h2>Contact</h2>
+            <h2>Nous contacter</h2>
 
-            <div class="form-container">
-               <form method="POST" action="">
-                    <h3>Nous contacter</h3>
-
-                    <label for="email">Adresse Email :</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="subject">Sujet de votre message :</label>
-                    <input type="text" id="subject" name="subject" required>
-
-                    <label for="message">Votre message :</label>
-                    <textarea id="comment" name="message" rows="8" required></textarea>
-
-                    <button type="submit">Envoyer</button>
-                </form>
-            </div> 
         </section>
     </main>
-</body>
 
-</html>
+
 <?php include "footer.php" ?>
+</body>
+</html>
