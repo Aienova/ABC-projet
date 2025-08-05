@@ -1,5 +1,5 @@
 
-    <footer class="centralizer">Copyright © 2025 ABC Dev Centre de Réadaptation de Mulhouse</footer>
+    <footer class="centralizer">
     
 
 
