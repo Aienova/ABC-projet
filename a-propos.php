@@ -66,10 +66,9 @@
 
   <main>
     <section id="about-us">
-      <h2>A propos de nous</h2>
-      <br />
+      <h2>A propos</h2>
 
-
+      
       <div id="description" align="center">
       <h3>L'équipe derrière AIE TV</h3>
         <p>
@@ -77,7 +76,83 @@
         </p>
       </div>
 
-      <h4 align="center">L'équipe</h4>
+
+            <h3>L'équipe</h3>
+
+            <div class="container_cards">
+
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+                
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\user.png" alt="">
+                    </div>
+                    <h4>Prénom</h4>
+                </div>
+
+            </div>
+            
+
+
+      <br />
+
+
+
+ 
 
 <!-- la partie de Benamin que j'avais fait parce que je pensais que c'était à moi, code déjà transmis à Benjamin
       <section id="photos">

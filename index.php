@@ -6,16 +6,21 @@
 $pageTitle = "AIE TV - Accueil";
 $pageDescription = "Bienvenue sur AIE TV, votre source de films et séries.";
 include "header.php" ?>
-
+        <?php include "banner.php" ?>
     <main>
+
         <section id="news">
             <h2>Nos dernières sorties</h2>
         
         <div class="cards-container">
             <div class="card">
+                    <label class="heart-toggle">
+                        <input type="checkbox" />
+                        <i class="fa-regular fa-heart"></i>
+                    </label>
                 <div class="premium-badge">Premium</div>
                 <img src="./media/film-1.jpg" alt="Film 1">
-                <h3>Mufasa:Roi Lion</h3>
+                <h3>Mufasa : Roi Lion</h3>
                 <p>Description du film 1.</p>
                 <a href="./film/1">En savoir plus</a>
             </div>
