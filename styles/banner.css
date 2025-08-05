@@ -1,0 +1,44 @@
+#banner {
+    background-image: url('../media/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    margin: 0;
+    position: relative;
+
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#banner::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, var(--background-color));
+    z-index: 3;
+
+}
+
+#banner p {
+    position: relative;
+    z-index: 2;
+}

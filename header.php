@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/footer.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/shortcodes.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>/styles/banner.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body>
