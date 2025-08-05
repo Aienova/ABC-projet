@@ -3,8 +3,9 @@
 $pageTitle = "AIE TV - Accueil";
 $pageDescription = "Bienvenue sur AIE TV, votre source de films et séries.";
 include "header.php" ?>
-
+        <?php include "banner.php" ?>
     <main>
+
         <section id="news">
             <h2>Nos dernières sorties</h2>
         

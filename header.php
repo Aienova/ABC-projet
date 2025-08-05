@@ -1,4 +1,7 @@
 
+
+<!-- AIE TV Header File -->
+
 <?php $root = "http://localhost/abc-project/aie-tv"; ?>
 
 <!DOCTYPE html>
@@ -11,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/footer.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/shortcodes.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>/styles/banner.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title><?php echo $pageTitle; ?></title>
 </head>

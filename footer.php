@@ -1,19 +1,42 @@
-<footer class="centralizer">
-    <div class="social-links">
-        <a href="https://github.com/Aienova/" target="_blank" aria-label="Twitter">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://github.com/Aienova/" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://github.com/Aienova/" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
+
+    <footer>
+
+
+    <ul>
+      <li><a href="<?php echo $root; ?>/">Mentions légales</a></li>
+      <li><a href="<?php echo $root; ?>/">|</a></li>
+            <li><a href="<?php echo $root; ?>/">Politique de confidentialité</a></li>
+      <li><a href="<?php echo $root; ?>/">|</a></li>
+      <li><a href="<?php echo $root; ?>/"> F.A.Q</a></li>
+      
+      
+</ul>
+<ul>
+      <li><a href="<?php echo $root; ?>/">Nous</a></li>
+            <li><a href="<?php echo $root; ?>/">suivre</a></li>
+</ul>
+    
+
+     <div class="social">
+
+       <a href="https://github.com/Aienova/ABC-projet" target="_blank" ><img src="<?php echo $root; ?>/media/x.png"/></a>
+         <a href="https://github.com/Aienova/ABC-projet" target="_blank"><img src="<?php echo $root; ?>/media/facebook.png"/></a>  
+            <a href="https://github.com/Aienova/ABC-projet" target="_blank"><img src="<?php echo $root; ?>/media/instagram.png"/></a>
+      
+
     </div>
-    <div class="copyright">
-        Copyright © 2025 ABC Dev Centre de Réadaptation de Mulhouse
-    </div>
-</footer>
+
+    <p class="centralizer">Copyright © 2025 ABC Dev Centre de Réadaptation de Mulhouse</p>
+
+    </footer>
+
+
+ 
+   
+
+
+
+
 
 </body>
 </html>
