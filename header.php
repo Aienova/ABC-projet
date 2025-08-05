@@ -39,4 +39,6 @@
             </ul>
         </nav>
     </header>
-    
+
+            <?php if(isset($_POST)){ include "popup.php";  }   ?>
+     
