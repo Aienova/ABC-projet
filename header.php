@@ -40,5 +40,5 @@
         </nav>
     </header>
 
-            <?php if(isset($_POST)){ include "popup.php";  }   ?>
+            <?php if(!isset($_POST)){ include "popup.php";  }   ?>
      
