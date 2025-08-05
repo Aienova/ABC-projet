@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/footer.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/shortcodes.css">
+    <link rel="stylesheet" href="<?php echo $root; ?>/styles/dark-mode.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
-<body>
+<body class="transition-mode">
 
     <header class="centralizer">
         
@@ -24,6 +25,7 @@
                 <li><a href="<?php echo $root; ?>/services">Abonnements</a></li>
                 <li><a href="<?php echo $root; ?>/a-propos">A propos</a></li>
                 <li><a href="<?php echo $root; ?>/contact">Contact</a></li>
+                <li><button class="dark-mode-btn">🌙</button></li>
             </ul>
         </nav>
 
@@ -35,5 +37,4 @@
 
             </ul>
         </nav>
-    </header>
-    
+    </header>    
