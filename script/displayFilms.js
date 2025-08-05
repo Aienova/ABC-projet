@@ -123,7 +123,7 @@ function fetchAndDisplay( data, section,message){
 
 }
 
-/*TEST*/
+/*TEST TEST*/
 
 /**
  * Récupérer et afficher tous les films
