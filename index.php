@@ -10,9 +10,13 @@ include "header.php" ?>
         
         <div class="cards-container">
             <div class="card">
+                    <label class="heart-toggle">
+                        <input type="checkbox" />
+                        <i class="fa-regular fa-heart"></i>
+                    </label>
                 <div class="premium-badge">Premium</div>
                 <img src="./media/film-1.jpg" alt="Film 1">
-                <h3>Mufasa:Roi Lion</h3>
+                <h3>Mufasa : Roi Lion</h3>
                 <p>Description du film 1.</p>
                 <a href="./film/1">En savoir plus</a>
             </div>
