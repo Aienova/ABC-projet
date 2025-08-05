@@ -102,17 +102,15 @@ function displayFilmsInSection(films, titre = "Liste des films",section) {
     filmsSection.appendChild(cardsContainer);
 }
 
-/**
- * Récupérer et afficher tous les films
- */
-async function fetchAndDisplayAllFilms() {
-    try {
-        console.log('Récupération de tous les films...');
-        const response = await getAllFilmsData();
+function fetchAndDisplay( data, section,message){
+
+      try {
+        console.log(message);
+        const response = data;
         
         if (response && response.status === 'success' && response.data) {
             console.log('Films récupérés:', response.data);
-            displayFilmsInSection(response.data, response.message,'films');
+            displayFilmsInSection(response.data, response.message, section);
         } else {
             console.error('Erreur dans la réponse:', response);
             displayErrorMessage('Aucun film trouvé');
@@ -122,28 +120,21 @@ async function fetchAndDisplayAllFilms() {
         console.error('Erreur lors de la récupération des films:', error);
         displayErrorMessage('Erreur lors du chargement des films');
     }
+
+}
+
+/**
+ * Récupérer et afficher tous les films
+ */
+async function fetchAndDisplayAllFilms() {
+    fetchAndDisplay( await getAllFilmsData(), 'films',"Récupération de tous les films...");
 }
 
 /**
  * Récupérer et afficher les films les mieux notés
  */
 async function fetchAndDisplayTopFilms() {
-    try {
-        console.log('Récupération des meilleurs films...');
-        const response = await getTopFilmsData();
-        
-        if (response && response.status === 'success' && response.data) {
-            console.log('Meilleurs films récupérés:', response.data);
-            displayFilmsInSection(response.data, response.message,'topten');
-        } else {
-            console.error('Erreur dans la réponse:', response);
-            displayErrorMessage('Aucun film trouvé');
-        }
-
-    } catch (error) {
-        console.error('Erreur lors de la récupération des meilleurs films:', error);
-        displayErrorMessage('Erreur lors du chargement des films');
-    }
+    fetchAndDisplay( await getTopFilmsData(), 'topten',"Récupération des meilleurs films...");
 }
 
 /**
