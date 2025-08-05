@@ -32,7 +32,7 @@
 
         <nav class="fullWidth blackbg">
             <ul>
-                <li><a href="#news">Sortie à la une</a></li>
+                <li><a href="#news">Nouveautés</a></li>
                 <li><a href="#topten">Top 10</a></li>
                 <li><a href="#films">Tous nos films</a></li>
 

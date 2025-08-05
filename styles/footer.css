@@ -1,7 +1,25 @@
 footer {
     background-color: #151414;
     color: white;
-    height: 15vh;
     padding: 20px;
     text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+footer img{
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
+footer ul li {
+    display: inline;
+
 }
