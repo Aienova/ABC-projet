@@ -3,6 +3,12 @@
   --bgd-primary: #ffffff;
   --bgd-secondary: #f0f0f0;
 
+  /* RWK */
+  --bgd-header: #ff0000;
+
+  /* RWK */
+  --bgd-services: #ffd700;
+
   --txt-primary: #111111;
   --txt-secondary: #444444;
 
@@ -16,7 +22,15 @@
 [data-theme="dark"] {
   /* 🌙 Mode sombre */
   --bgd-primary: rgb(23, 23, 23);
-  --bgd-secondary: rgb(36, 36, 36);
+  --bgd-secondary: #1e1e1e;
+
+  /* RWK */
+  --bgd-header: #7a1f1f; 
+  /* 993333 */
+  /* 7a1f1f */
+
+  /* RWK */
+  --bgd-services: #daa520;
 
   --txt-primary: rgb(230, 230, 230);
   --txt-secondary: rgb(180, 180, 180);
@@ -24,6 +38,21 @@
   --accent: rgb(100, 150, 255);
   --accent-hover: rgb(150, 200, 255);
   --fade-color: 0, 0, 0;
+}
+
+[data-theme="twilight"] {
+  --bgd-primary: #2d1f24;         /* fond général – violet brun très sombre */
+  --bgd-secondary: #3b2c35;       /* fond secondaire – plus doux */
+
+  --bgd-header: #b45252;          /* rouge doux chaud, ciel au coucher du soleil */
+
+  --bgd-services: #f0b95b;
+
+  --txt-primary: #fce8e8;         /* texte principal – rose pâle */
+  --txt-secondary: #d4baba;       /* texte secondaire – beige rosé */
+
+  --accent: #ff9c6e;              /* orange doux / corail */
+  --accent-hover: #fdb88f;        /* plus clair pour hover */
 }
 
 /* Styles globaux */
@@ -37,12 +66,13 @@ h1, h2, h3, p {
   color: var(--txt-primary);
 }
 
-.card {
+/* RWK */
+/* .card {
   background-color: var(--bgd-secondary);
   color: var(--txt-primary);
-}
+} */
 
 /* Optionnel : transition douce à l’activation */
-body.transition-mode {
+body.transition-mode, header.transition-mode {
   transition: all 0.5s ease;
 }
