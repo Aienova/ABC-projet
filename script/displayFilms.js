@@ -71,7 +71,7 @@ function displayFilmsInSection(films, titre = "Liste des films",section) {
 
         // Image du film
         const img = document.createElement('img');
-        img.src =  `http://localhost/abc-project/aie-tv/media/film-${film.id}.jpg`;
+        img.src =  `http://localhost/abc-project/aie-tv/media/cover/${film.image}.jpg`;
         img.alt = film.title || 'Film sans titre';
 
         // Titre du film
