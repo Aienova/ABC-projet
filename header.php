@@ -55,3 +55,5 @@
     }
     ?>
 </header>
+
+<?php if($_POST!=null) { include "popup.php";  }  $_POST = null; ?>
