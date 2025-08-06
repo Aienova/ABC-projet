@@ -12,23 +12,31 @@
         z-index: 1000;
     }
     .content {
-        background-color: #fff;
-        padding: 1rem;
-        border-radius: 8px;
         position: relative;
         width: 80%;
         max-width: 800px;
+        background-color: #000;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .content iframe {
+        width: 100%;
+        height: 450px;
+        border-radius: 8px;
     }
     .close-btn {
         position: absolute;
         top: 10px;
         right: 10px;
+        width: 30px;
+        height: 30px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 50%;
         cursor: pointer;
         font-size: 1.5rem;
-    }
-    iframe {
-        width: 100%;
-        height: 450px;
+        font-weight: bold;
     }
 </style>
 
@@ -36,7 +44,7 @@
 <div id="trailerpopup" class="overlay">
     <div class="content">
         <span class="close-btn" onclick="closePopup()">&times;</span>
-        <iframe id="trailerIframe" src="" frameborder="0" allowfullscreen></iframe>
+        <iframe src="" allowfullscreen></iframe>
     </div>
 </div>
 <script>
@@ -44,7 +52,7 @@
         document.getElementById('trailerpopup').style.display = "flex";
     }
 
-    function closeEvent() {
+    function closePopup() {
         document.getElementById("trailerpopup").style.display = "none";
         document.querySelector("#trailerpopup iframe").src = document.querySelector("#trailerpopup iframe").src;
     }
