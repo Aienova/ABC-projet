@@ -48,9 +48,10 @@
     </div>
 </div>
 <script>
-    function openTrailer() {
-        document.getElementById('trailerpopup').style.display = "flex";
-    }
+    window.addEventListener("click", () => {
+        const popup = document.getElementById("trailerpopup");
+        popup.style.display = "flex";
+    });
 
     function closePopup() {
         document.getElementById("trailerpopup").style.display = "none";
