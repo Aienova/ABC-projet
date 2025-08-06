@@ -5,11 +5,14 @@ body{
     margin: 0;
     padding: 0;
     /* transition: all 0.5s ease; */
-    background-color: #f1ebeb;
+    
+    /* RWK background-color: #f1ebeb; */
+    background-color: var(--bgd-primary);
 }
 
 header {
-    background-color: red;
+    /* RWK background-color: red; */
+    background-color: var(--bgd-header);
     color: white!important;
 }
 
@@ -23,7 +26,7 @@ header ul li {
     margin-right: 20px;
 }
 
-header a,footer a,#banner P{
+header a, footer a, #banner p{
     color: white!important;
     font-weight: bold;
 }
@@ -46,7 +49,10 @@ main {
 }
 
 .card {
-    background-color: #fff;
+    /* RWK background-color: #fff; */
+    background-color: var(--bgd-secondary);
+    /* RWK */
+    color: var(--txt-primary);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;

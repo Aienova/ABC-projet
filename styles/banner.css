@@ -33,13 +33,23 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
-    background: linear-gradient(to bottom, transparent, var(--background-color));
-    z-index: 3;
-
+    height: 170px;
+    z-index: 2;
+    background: linear-gradient(to bottom,
+    var(--fade-step-0) 0%,
+    var(--fade-step-1) 10%,
+    var(--fade-step-2) 20%,
+    var(--fade-step-3) 30%,
+    var(--fade-step-4) 40%,
+    var(--fade-step-5) 50%,
+    var(--fade-step-6) 60%,
+    var(--fade-step-7) 70%,
+    var(--fade-step-8) 80%,
+    var(--fade-step-9) 90%,
+    var(--fade-final) 100%);
 }
 
 #banner p {
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
