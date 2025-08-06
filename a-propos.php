@@ -90,58 +90,6 @@
 
 
 
- 
-
-<!-- la partie de Benamin que j'avais fait parce que je pensais que c'était à moi, code déjà transmis à Benjamin
-      <section id="photos">
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-      
-
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-        </section> -->
-
-
     </section>
   </main>
 
