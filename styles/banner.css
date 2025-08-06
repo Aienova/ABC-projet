@@ -33,13 +33,24 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
-    background: linear-gradient(to bottom, transparent, var(--background-color));
-    z-index: 3;
+    height: 170px;
+    z-index: 2;
+    background: linear-gradient(to bottom,
+    rgba(var(--fade-color), 0.00) 0%,
+    rgba(var(--fade-color), 0.05) 10%,
+    rgba(var(--fade-color), 0.10) 20%,
+    rgba(var(--fade-color), 0.15) 30%,
+    rgba(var(--fade-color), 0.20) 40%,
+    rgba(var(--fade-color), 0.25) 50%,
+    rgba(var(--fade-color), 0.30) 60%,
+    rgba(var(--fade-color), 0.40) 70%,
+    rgba(var(--fade-color), 0.50) 80%,
+    rgba(var(--fade-color), 0.60) 90%,
+    var(--bgd-primary) 100%);
 
 }
 
 #banner p {
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }

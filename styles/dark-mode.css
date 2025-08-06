@@ -8,6 +8,9 @@
 
   --accent: rgb(100, 150, 255);
   --accent-hover: rgb(150, 200, 255);
+  
+  --fade-color: 255, 255, 255;
+
 }
 
 [data-theme="dark"] {
@@ -20,6 +23,7 @@
 
   --accent: rgb(100, 150, 255);
   --accent-hover: rgb(150, 200, 255);
+  --fade-color: 0, 0, 0;
 }
 
 /* Styles globaux */
