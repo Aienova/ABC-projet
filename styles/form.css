@@ -3,25 +3,22 @@
             max-width: 700px;
             margin: auto;
             padding: 30px;
+            background-color: var(--bgd-form);
         }
 
-        #form-contact{
-            /* RWK */
-            /* background-color: red; */
-            background-color: var(--bgd-header);
+        /* RWK */
+        /* #form-contact{
+            background-color: var(--bgd-form);
         }
-
         
         #form-services{
-
-            /* RWK */
-            /* background-color: gold; */
-            background-color: var(--bgd-services);
-        }
+            background-color: var(--bgd-form);
+        } */
 
         form {
             display: flex;
             flex-direction: column;
+            
         }
 
         .form-container input {
