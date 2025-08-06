@@ -16,7 +16,7 @@
         slides[current].classList.remove('active');
         current = (current + 1) % slides.length;
         slides[current].classList.add('active');  
-    }, 10000); // change les slides toutes les 10 secondes
+    }, 6000); // change les slides toutes les 6 secondes
 </script>
 
     
