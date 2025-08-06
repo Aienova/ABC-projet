@@ -5,12 +5,23 @@ include "header.php" ?>
 
     <main>
         <section id="services">
+            
             <h2>Contact</h2>
+
+                    <div id="description">
+
+                        <p style="max-width: 500px; margin-left: auto; margin-right: auto; text-align: left; line-height: 25px; font-weight: bold; font-size: 18px">Besoin d'aide ou avez-vous des questions ? Vous pouvez nous contacter via notre formulaire ci-dessous</p>
+                    
+                    </div>
             <!--FORM-->
+
+
 
             <div id="form-contact" class="form-container">
                <form method="POST" action="">
                     <h3>Nous contacter</h3>
+
+                    
 
                     <label for="email">Adresse Email :</label>
                     <input type="email" id="email" name="email" required>
