@@ -47,7 +47,7 @@
     }
 </style>
 <div class="popup" id="popup">
-    <img src="Maquettes/ChatGPT Image 4 août 2025, 09_35_36.png" alt="AIE TV">
+    <img src="media/Logo_blanc.png" alt="AIE TV">
     <h2>Votre demande a bien été effectuée</h2>
     <button onclick="closePopup()">Fermer</button>
 </div>
