@@ -6,14 +6,17 @@
         }
 
         #form-contact{
-
-            background-color: red;
+            /* RWK */
+            /* background-color: red; */
+            background-color: var(--bgd-header);
         }
 
         
         #form-services{
 
-            background-color: gold;
+            /* RWK */
+            /* background-color: gold; */
+            background-color: var(--bgd-services);
         }
 
         form {
