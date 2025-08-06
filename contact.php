@@ -1,25 +1,39 @@
+<?php 
+$pageTitle = "AIE TV - Contact";
 
-<?php include "header.php"; ?>
+include "header.php"; ?>
 
 
     <main>
         <section id="services">
-            <h2>Nous contacter</h2>
             
+            <h2>Contact</h2>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+                    <div id="description">
 
-<p></p>
+                        <p style="max-width: 500px; margin-left: auto; margin-right: auto; text-align: left; line-height: 25px; font-weight: bold; font-size: 18px">Besoin d'aide ou avez-vous des questions ? Vous pouvez nous contacter via notre formulaire ci-dessous</p>
+                    
+                    </div>
+            <!--FORM-->
 
 
+
+
+            <div id="form-services" class="form-container">
+                <form method="POST" action="">
+                    <label for="email">Adresse Email :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Sujet de votre message :</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Votre message :</label>
+                    <textarea id="comment" name="message" rows="8" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div> 
         </section>
     </main>
-
 
 <?php include "footer.php" ?>
