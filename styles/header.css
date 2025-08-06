@@ -1,0 +1,158 @@
+/* header.css */
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;                    
+    gap: 32px;
+    background-color: red;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 100px;      
+    height: auto;
+    display: block;
+}
+
+.header-flex ul {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-flex ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    transition: background 0.2s, color 0.2s;
+    border-radius: 4px;
+}
+
+.header-flex ul li a:hover {
+    background: #fff;
+    color: #4e033b;
+}
+
+.fullWidth.blackbg {
+    width: 100%;
+}
+
+.fullWidth.blackbg ul {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+
+}
+
+.fullWidth.blackbg ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    transition: background 0.2s, color 0.2s;
+    border-radius: 4px;
+}
+
+.fullWidth.blackbg ul li a:hover {
+    background: #fff;
+    color: #4e033b;
+}
+
+ul li a {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+
+
+body {
+    padding-top: 130px; 
+}
+
+
+header {
+    position: fixed;
+    z-index: 111111;
+    width: 100%;
+    top: 0;
+    left: 0;
+   
+}
+
+
+.header-bottom {
+    background-color: #4e033b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;                    
+    gap: 32px;
+    background-color: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#news, #topten, #films {
+    scroll-margin-top: 180px; 
+}
+
+@media (max-width: 900px) {
+    .header-flex {
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 0;
+    }
+    .header-flex ul,
+    .fullWidth.blackbg ul {
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+    .header-flex ul li,
+    .fullWidth.blackbg ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .header-flex ul li a,
+    .fullWidth.blackbg ul li a {
+        display: block;
+        width: 100%;
+        padding: 14px 0;
+    }
+    .header-bottom {
+        gap: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .fullWidth.blackbg ul {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+    }
+    .fullWidth.blackbg ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .fullWidth.blackbg ul li a {
+        display: block;
+        width: 100%;
+        padding: 14px 0;
+        white-space: normal; /* Permet au texte de revenir à la ligne si besoin */
+        font-size: 1em;
+    }
+}
