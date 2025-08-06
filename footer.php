@@ -8,7 +8,7 @@
       <li><a href="<?php echo $root; ?>/">|</a></li>
             <li><a href="<?php echo $root; ?>/">Politique de confidentialité</a></li>
       <li><a href="<?php echo $root; ?>/">|</a></li>
-      <li><a href="<?php echo $root; ?>/"> F.A.Q</a></li>
+      <li><a href="FAQ.php"> F.A.Q</a></li>
       
       
             </ul>
