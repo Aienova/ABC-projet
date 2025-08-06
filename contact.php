@@ -1,7 +1,8 @@
 <?php 
 $pageTitle = "AIE TV - Contact";
 
-include "header.php" ?>
+include "header.php"; ?>
+
 
     <main>
         <section id="services">
@@ -17,12 +18,9 @@ include "header.php" ?>
 
 
 
-            <div id="form-contact" class="form-container">
-               <form method="POST" action="">
-                    <h3>Nous contacter</h3>
 
-                    
-
+            <div id="form-services" class="form-container">
+                <form method="POST" action="">
                     <label for="email">Adresse Email :</label>
                     <input type="email" id="email" name="email" required>
 
