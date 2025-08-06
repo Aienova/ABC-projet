@@ -11,6 +11,19 @@
 
   --accent: rgb(100, 150, 255);
   --accent-hover: rgb(150, 200, 255);
+  
+  --fade-step-0: rgba(255, 255, 255, 0.00); /* fading transparent de la bannière */
+  --fade-step-1: rgba(255, 255, 255, 0.05);
+  --fade-step-2: rgba(255, 255, 255, 0.10);
+  --fade-step-3: rgba(255, 255, 255, 0.15);
+  --fade-step-4: rgba(255, 255, 255, 0.20);
+  --fade-step-5: rgba(255, 255, 255, 0.25);
+  --fade-step-6: rgba(255, 255, 255, 0.30);
+  --fade-step-7: rgba(255, 255, 255, 0.40);
+  --fade-step-8: rgba(255, 255, 255, 0.50);
+  --fade-step-9: rgba(255, 255, 255, 0.60);
+  --fade-final: var(--bgd-primary);
+
 }
 
 [data-theme="dark"] {
@@ -26,6 +39,18 @@
 
   --accent: rgb(100, 150, 255);
   --accent-hover: rgb(150, 200, 255);
+
+  --fade-step-0: rgba(0, 0, 0, 0.00); /* fading transparent de la bannière */
+  --fade-step-1: rgba(0, 0, 0, 0.05);
+  --fade-step-2: rgba(0, 0, 0, 0.10);
+  --fade-step-3: rgba(0, 0, 0, 0.15);
+  --fade-step-4: rgba(0, 0, 0, 0.20);
+  --fade-step-5: rgba(0, 0, 0, 0.25);
+  --fade-step-6: rgba(0, 0, 0, 0.30);
+  --fade-step-7: rgba(0, 0, 0, 0.40);
+  --fade-step-8: rgba(0, 0, 0, 0.50);
+  --fade-step-9: rgba(0, 0, 0, 0.60);
+  --fade-final: var(--bgd-primary);
 }
 
 [data-theme="twilight"] {
@@ -40,6 +65,18 @@
 
   --accent: #ff9c6e;              /* orange doux / corail */
   --accent-hover: #fdb88f;        /* plus clair pour hover */
+
+  --fade-step-0: rgba(45, 31, 36, 0.00); /* fading transparent de la bannière */
+  --fade-step-1: rgba(45, 31, 36, 0.05);
+  --fade-step-2: rgba(45, 31, 36, 0.10);
+  --fade-step-3: rgba(45, 31, 36, 0.15);
+  --fade-step-4: rgba(45, 31, 36, 0.20);
+  --fade-step-5: rgba(45, 31, 36, 0.25);
+  --fade-step-6: rgba(45, 31, 36, 0.30);
+  --fade-step-7: rgba(45, 31, 36, 0.40);
+  --fade-step-8: rgba(45, 31, 36, 0.50);
+  --fade-step-9: rgba(45, 31, 36, 0.60);
+  --fade-final: #2d1f24; 
 }
 
 /* Styles globaux */
