@@ -64,16 +64,16 @@
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\mamadou.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Mamadou</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\quentin.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Quentin</h2>
                 </div>
                 
                 <div class="user-card">

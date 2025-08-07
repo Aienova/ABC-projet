@@ -12,6 +12,12 @@
     justify-content: center;
 }
 
+#banner p{
+
+        color: white!important;
+
+}
+
 #banner .slide {
     position: absolute;
     top: 0;
