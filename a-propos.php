@@ -35,31 +35,31 @@
                     
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\team/" alt="">
+                        <img src="media\team\jeremie.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Jérémie</h2>
                 </div>
                 
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\david.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>David</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\fouad.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Fouad</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\lea.jfif" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Léa</h2>
                 </div>
                 
                 <div class="user-card">
