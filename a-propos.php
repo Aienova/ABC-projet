@@ -28,17 +28,18 @@
 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\Ben.png" alt="">
+                    </div>
+                    <h2>Benjamin</h2>
+                </div>
+                    
+                <div class="user-card">
+                    <div class="cercle">
+                        <img src="media\team/" alt="">
                     </div>
                     <h2>Prénom</h2>
                 </div>
                 
-                <div class="user-card">
-                    <div class="cercle">
-                        <img src="media\user.png" alt="">
-                    </div>
-                    <h2>Prénom</h2>
-                </div>
                 
                 <div class="user-card">
                     <div class="cercle">
