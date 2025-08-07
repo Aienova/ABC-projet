@@ -25,13 +25,15 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid black;
     overflow:hidden;
     box-shadow: 8px 5px 24px 2px #050000;
 }
-.cercle img{
-    filter: grayscale(1) brightness(1.2);
+.cercle img {
+  filter: grayscale(1) brightness(1.2);
+  transition: all 0.3s ease;
 }
-.user-card:hover{
-  transform: scale(1.2);
+
+.user-card:hover .cercle img {
+    transform: scale(1.2);
+    filter: none;
 }
