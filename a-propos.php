@@ -8,14 +8,14 @@
 
       
       <div id="description" align="center">
-      <h3>L'équipe derrière AIE TV</h3>
+      <h2>L'équipe derrière AIE TV</h2>
         <p>
           Derrière AIE TV, se cache une équipe réduite mais redoutablement efficace, composée de deux développeurs passionnés par le web, la programmation et l’innovation digitale. Formés au Centre de Réadaptation de Mulhouse, nous avons partagé les mêmes bancs, les mêmes défis, et surtout la même envie de créer quelque chose de grand. De cette vision est née AIE TV : une plateforme ambitieuse pensée pour simplifier le streaming et rassembler le meilleur du divertissement.
         </p>
       </div>
 
 
-            <h3>L'équipe</h3>
+            <h2>L'équipe</h2>
 
             <div class="container_cards">
 
@@ -23,63 +23,63 @@
                     <div class="cercle">
                         <img src="media\team\eudes.png" alt="">
                     </div>
-                    <h4>Eudes</h4>
+                    <h2>Eudes</h2>
                 </div>
 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
                 
                 <div class="user-card">
                     <div class="cercle">
                         <img src="media\user.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h2>Prénom</h2>
                 </div>
 
             </div>
