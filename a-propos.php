@@ -21,9 +21,9 @@
 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\eudes.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h4>Eudes</h4>
                 </div>
 
                 <div class="user-card">
