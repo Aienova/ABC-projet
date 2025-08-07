@@ -1,31 +1,16 @@
 
 body{
-
     font-family: Forte, sans-serif;
     margin: 0;
     padding: 0;
     /* transition: all 0.5s ease; */
-    background-color: #f1ebeb;
-}
-
-header {
-    background-color: red;
-    color: white!important;
+    
+    background-color: var(--bgd-primary);
 }
 
 a{
     color: var(--txt-primary);
     text-decoration: none;
-}
-
-header ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header a,footer a,#banner P{
-    color: white!important;
-    font-weight: bold;
 }
 
 main {
@@ -46,7 +31,8 @@ main {
 }
 
 .card {
-    background-color: #fff;
+    background-color: var(--bgd-secondary);
+    color: var(--txt-primary);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -55,11 +41,14 @@ main {
     min-width: 250px;
     max-width: 350px;
     text-align: center;
+   
 }
 
 .card:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    
 }
 
 .card img {

@@ -21,9 +21,9 @@
 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\eudes.png" alt="">
                     </div>
-                    <h4>Prénom</h4>
+                    <h4>Eudes</h4>
                 </div>
 
                 <div class="user-card">
@@ -88,58 +88,6 @@
 
       <br />
 
-
-
- 
-
-<!-- la partie de Benamin que j'avais fait parce que je pensais que c'était à moi, code déjà transmis à Benjamin
-      <section id="photos">
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-      
-
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-
-        <div class="photos-equipe">
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 1</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 2</div>
-          </div>
-          <div class="photo-container">
-            <div class="photo">Photo</div>
-            <div id="nom">Prénom 3</div>
-          </div>
-        </div>
-        </section> -->
 
 
     </section>

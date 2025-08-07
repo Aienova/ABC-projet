@@ -1,11 +1,13 @@
 /* header.css */
+
 .header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between; 
     width: 100%;                    
     gap: 32px;
-    background-color: red;
+    background-color: var(--bgd-header);
+    color: white!important;
 }
 
 .logo {
