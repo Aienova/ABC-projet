@@ -78,9 +78,9 @@
                 
                 <div class="user-card">
                     <div class="cercle">
-                        <img src="media\user.png" alt="">
+                        <img src="media\team\iliyana.png" alt="">
                     </div>
-                    <h2>Prénom</h2>
+                    <h2>Iliyana</h2>
                 </div>
 
             </div>

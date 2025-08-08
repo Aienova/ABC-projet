@@ -1,6 +1,3 @@
-
-
-
 <?php 
 
 $pageTitle = "AIE TV - Accueil";
@@ -12,31 +9,8 @@ include "header.php" ?>
         <section id="news">
             <h2>Nos dernières sorties</h2>
         
-        <div class="cards-container">
-            <div class="card">
-                    <label class="heart-toggle">
-                        <input type="checkbox" />
-                        <i class="fa-regular fa-heart"></i>
-                    </label>
-                <div class="premium-badge">Premium</div>
-                <img src="./media/film-1.jpg" alt="Film 1">
-                <h3>Mufasa : Roi Lion</h3>
-                <p>Description du film 1.</p>
-                <a href="./film/1">En savoir plus</a>
-            </div>
-            <div class="card">
-                <img src="/media/thunderbolt.webp" alt="Film 2">
-                <h3>Film 2</h3>
-                <p>Description du film 2.</p>
-                <a href="./film/2">En savoir plus</a>
-            </div>
-            <div class="card">
-                <div class="premium-badge">Premium</div>
-                <img src="/media/" alt="Film 3">
-                <h3>Film 3</h3>
-                <p>Description du film 3.</p>
-                <a href="./film/3">En savoir plus</a>
-            </div>
+        <div class="info-container">
+            <p>Découvrez notre catalogue exceptionnel de plus de <strong>5000 films du moment</strong> à voir en streaming ! Plongez dans un univers cinématographique sans limites avec les dernières sorties, les grands classiques et les pépites du cinéma mondial. Que vous soyez amateur d'action, de romance, de science-fiction, de thriller ou de documentaires, notre plateforme vous offre un accès illimité à une bibliothèque de films constamment mise à jour. Profitez d'une expérience de streaming haute qualité et laissez-vous emporter par les histoires les plus captivantes du cinéma contemporain.</p>
         </div>  
 
 

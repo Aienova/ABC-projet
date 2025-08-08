@@ -51,7 +51,7 @@ function displayFilmDetails(filmData) {
     
     // Image avec fallback
     const imageUrl = filmData.id 
-        ? `http://localhost/abc-project/aie-tv/media/film-${filmData.id}.jpg`
+        ? `http://localhost/abc-project/aie-tv/media/cover/${filmData.image}.jpg`
         : 'http://localhost/abc-project/aie-tv/media/default-film.jpg';
     imageElement.src = imageUrl;
     imageElement.alt = filmData.titre || 'Image du film';
@@ -67,7 +67,7 @@ function displayFilmDetails(filmData) {
     }
     
     // Ajouter le badge premium si le film est premium
-    if (filmData.premium || filmData.is_premium || filmData.type === 'premium') {
+    if (filmData.is_premium==true) {
         const premiumBadge = document.createElement('div');
         premiumBadge.className = 'premium-badge';
         premiumBadge.textContent = 'Premium';
