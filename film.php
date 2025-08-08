@@ -1,4 +1,5 @@
-<?php include "header.php" ?>
+
+<?php include "header.php"; ?>
 
 <?php
 // Récupération du paramètre ID depuis l'URL

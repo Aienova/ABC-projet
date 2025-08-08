@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<?php echo $pageDescription; ?>">
+    <meta name="description" content="<?php echo isset($pageDescription) ? htmlspecialchars($pageDescription) : ''; ?>">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/main.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/footer.css">
@@ -20,14 +20,22 @@
     <link rel="stylesheet" href="<?php echo $root; ?>/styles/banner.css">
         <link rel="stylesheet" href="<?php echo $root; ?>/styles/form.css">
        <link rel="stylesheet" href="<?php echo $root; ?>/styles/animation.css">     
+       <link rel="stylesheet" href="<?php echo $root; ?>/styles/politique.css">     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title><?php echo $pageTitle; ?></title>
+    
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <head>
+    
+    <link rel="stylesheet" href="<?php echo $root; ?>/styles/header.css">
+</head>
+   
 </head>
 <body class="transition-mode">
 
     <header class="centralizer">
-        
-        <h1>AIE TV</h1>
+        <div class="header-flex">
+            <img class="logo" src="http://localhost/abc-project/aie-tv/media/Logo_blanc.png" alt="Logo AIE TV">
         <nav class="fullWidth">
             <ul>
                 <li><a href="<?php echo $root; ?>/">Accueil</a></li>
@@ -37,6 +45,10 @@
                 <li><button class="dark-mode-btn">🌙</button></li>
             </ul>
         </nav>
+    </div>
+
+
+
     <?php
     
 
@@ -55,3 +67,5 @@
     }
     ?>
 </header>
+
+<?php if($_POST!=null) { include "popup.php";  }  $_POST = null; ?>

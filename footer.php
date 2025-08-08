@@ -4,27 +4,24 @@
 
 
     <ul>
-      <li><a href="<?php echo $root; ?>/">Mentions légales</a></li>
+      <li><a href="<?php echo $root; ?>/mentions-legales">Mentions légales</a></li>
+      <li>|</li>
+            <li><a href="<?php echo $root; ?>/politique">Politique de confidentialité</a></li>
       <li><a href="<?php echo $root; ?>/">|</a></li>
-            <li><a href="<?php echo $root; ?>/">Politique de confidentialité</a></li>
-      <li><a href="<?php echo $root; ?>/">|</a></li>
-      <li><a href="<?php echo $root; ?>/"> F.A.Q</a></li>
+      <li><a href="<?php echo $root; ?>/faq"> F.A.Q</a></li>
       
       
-</ul>
-<ul>
-      <li><a href="<?php echo $root; ?>/">Nous</a></li>
-            <li><a href="<?php echo $root; ?>/">suivre</a></li>
-</ul>
-    
+            </ul>
+                  <ul>
+                        <li>Nous suivre sur :</li>
+                  </ul>
+                  
 
      <div class="social">
 
        <a href="https://github.com/Aienova/ABC-projet" target="_blank" ><img src="<?php echo $root; ?>/media/x.png"/></a>
          <a href="https://github.com/Aienova/ABC-projet" target="_blank"><img src="<?php echo $root; ?>/media/facebook.png"/></a>  
             <a href="https://github.com/Aienova/ABC-projet" target="_blank"><img src="<?php echo $root; ?>/media/instagram.png"/></a>
-      
-
     </div>
 
     <p class="centralizer">Copyright © 2025 ABC Dev Centre de Réadaptation de Mulhouse</p>
