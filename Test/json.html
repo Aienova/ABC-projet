@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form id="inscriptionForm">
+        <div class="form-group">
+            <label for="user_name">Nom d'utilisateur:</label>
+            <input type="text" id="user_name" name="user_name" required>
+        </div>
+        <div class="form-group">
+            <label for="user_pass">Mot de passe:</label>
+            <input type="password" id="user_pass" name="user_pass" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm_pass">Confirmer le mot de passe:</label>
+            <input type="password" id="confirm_pass" name="confirm_pass" required>
+        </div>
+        <button type="submit">S'inscrire</button>
+    </form>
+    
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('inscriptionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Récupération des données du formulaire
+            const formData = {
+                user_name: document.getElementById('user_name').value,
+                user_pass: document.getElementById('user_pass').value,
+                confirm_pass: document.getElementById('confirm_pass').value
+            };
+            
+            // Validation simple
+            if (!formData.user_name || !formData.user_pass || !formData.confirm_pass) {
+                document.getElementById('result').innerHTML = "<p style='color:red'>Tous les champs sont obligatoires.</p>";
+                return;
+            }
+            
+            if (formData.user_pass !== formData.confirm_pass) {
+                document.getElementById('result').innerHTML = "<p style='color:red'>Les mots de passe ne correspondent pas.</p>";
+                return;
+            }
+            
+            // Création de l'objet Utilisateur
+            class Utilisateur {
+                constructor() {
+                    this.user_name = '';
+                    this.user_pass = '';
+                }
+                
+                getNom() {
+                    return this.user_name;
+                }
+                
+                setNom(new_user_name) {
+                
+                    this.user_name = new_user_name.trim().replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                }
+                
+                setPasse(new_user_pass) {
+              
+                    this.user_pass = this.simulateHash(new_user_pass);
+                }
+                
+                validerPasse(pass_a_verifier) {
+                    // Simulation de la vérification
+                    return this.simulateHash(pass_a_verifier) === this.user_pass;
+                }
+                
+                simulateHash(password) {
+                    // Simulation très basique d'un hash 
+                    let hash = 0;
+                    for (let i = 0; i < password.length; i++) {
+                        const char = password.charCodeAt(i);
+                        hash = ((hash << 5) - hash) + char;
+                        hash = hash & hash; 
+                    }
+                    return hash.toString();
+                }
+            }
+            
+            // Création et configuration de l'utilisateur
+            const nouvelUtilisateur = new Utilisateur();
+            nouvelUtilisateur.setNom(formData.user_name);
+            nouvelUtilisateur.setPasse(formData.user_pass);
+            
+            // Affichage des résultats
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `
+                <h2>Inscription réussie!</h2>
+                <p>Nom d'utilisateur: ${nouvelUtilisateur.getNom()}</p>
+                <p>Mot de passe hashé: (non affiché pour des raisons de sécurité)</p>
+                <p>Données JSON: ${JSON.stringify({
+                    user_name: nouvelUtilisateur.getNom(),
+                   
+                    user_pass_hash: "hidden_for_security"
+                })}</p>
+                <a href="http://localhost/abc-project/aie-tv/">Retour à l'accueil</a>
+            `;
+            
+
+            /*
+            fetch('votre-script-php.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+            */
+        });
+    </script>
+</body>
+</html>
