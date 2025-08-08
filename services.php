@@ -3,7 +3,7 @@
 
     <main>
 
-
+    <!--
 
 <section id="inscription">
     <h2>Inscription</h2>
@@ -26,7 +26,7 @@
         <button type="submit">S'inscrire</button>
     </form>
 </section>
-
+-->
 
         <section id="services">
                 <h2>Nos abonnements</h2>
